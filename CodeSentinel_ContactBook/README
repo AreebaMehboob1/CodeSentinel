@@ -1,1 +1,30 @@
+# CodeSentinel_ContactBook
 
+## 📌 Task Description
+This is **Task 2** of my Python Programming Virtual Internship at **Code Sentinel**.  
+The task is to create a **Simple Contact Book** that:
+- Lets the user add a contact (Name & Phone Number)
+- Saves contacts to a `contacts.txt` file
+- Allows viewing saved contacts from the file
+
+---
+
+## 🛠 Concepts Used
+- **File Handling (open, read, write)** for persistent data storage
+- **while loops** for continuous menu interaction
+- **String handling** to store and retrieve contact information
+- **Basic input/output** for user interaction
+
+---
+
+## 📜 Code Explanation
+- **`add_contact()`** → Adds a contact and stores it in `contacts.txt` in `Name,Phone` format  
+- **`view_contacts()`** → Reads and displays contacts from the file  
+- **`main()`** → Provides a menu-driven interface (Add, View, Exit)  
+
+---
+
+## ▶️ How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<AreebaMehboob1>/CodeSentinel_ContactBook.git
