@@ -1,1 +1,31 @@
+# CodeSentinel_ToDoList
+
+## 📌 Task Description
+This is **Task 3** of my Python Programming Virtual Internship at **Code Sentinel**.  
+The task is to create a **To-Do List Application** that:
+- Adds new tasks
+- Removes tasks
+- Displays the list of tasks
+- Saves tasks to `tasks.json` for persistent storage
+- Loads saved tasks when the program starts
+
+
+## 🛠 Concepts Used
+- **JSON module** for structured data storage  
+- **File Handling (open, read, write)** for saving and loading tasks  
+- **Lists** for storing multiple tasks in memory  
+- **Functions** for clean and modular code design  
+- **while loops** for continuous menu interaction
+
+## 📜 Code Explanation
+- **`load_tasks()`** → Loads tasks from `tasks.json` (creates file if not present)  
+- **`save_tasks()`** → Saves the updated list of tasks to `tasks.json`  
+- **`add_task()`** → Adds a task to the list and saves it  
+- **`remove_task()`** → Removes a task based on the user’s selection  
+- **`view_tasks()`** → Displays all tasks with numbering  
+- **`main()`** → Handles the main menu (Add, Remove, View, Exit)  
+
+## ▶️ How to Run
+1. Clone the repository:
+   git clone https://github.com/<AreebaMehboob1>/CodeSentinel/CodeSentinel_ToDoList.git
 
