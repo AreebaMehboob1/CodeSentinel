@@ -1,1 +1,32 @@
+# CodeSentinel_WebScraper
+
+## 📌 Task Description
+This is **Task 4** of my Python Programming Virtual Internship at **Code Sentinel**.  
+The task is to create a **Web Scraper** that:
+- Fetches HTML content from a website (Hacker News)
+- Parses the HTML to extract all headlines
+- Displays them as a clean, numbered list
+
+---
+
+## 🛠 Concepts Used
+- **requests** to fetch the HTML content from the website  
+- **BeautifulSoup (bs4)** to parse and extract headlines from HTML  
+- **for loops** to iterate and display headlines in a formatted way  
+
+---
+
+## 📜 Code Explanation
+- **`requests.get()`** → Downloads the webpage HTML  
+- **`BeautifulSoup`** → Parses HTML and searches for specific tags/classes  
+- **`find_all("span", class_="titleline")`** → Gets all headlines  
+- Prints each headline with its link in a numbered list  
+
+---
+
+## ▶️ How to Run
+### 1. Install Required Packages
+```bash
+pip install requests
+pip install beautifulsoup4
 
