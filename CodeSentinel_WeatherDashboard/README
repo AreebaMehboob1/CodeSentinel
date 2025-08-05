@@ -1,1 +1,39 @@
+# CodeSentinel_WeatherDashboard
+
+## 📌 Task Description
+This is **Task 5** of my Python Programming Virtual Internship at **Code Sentinel**.  
+The task is to create a **Weather Dashboard** that:
+- Asks the user for a city name  
+- Fetches real-time weather data using the **OpenWeatherMap API**  
+- Displays **temperature, humidity, and weather condition** in the console  
+
+---
+
+## 🛠 Concepts Used
+- **requests** → To fetch data from the API  
+- **JSON parsing** → To extract values from the API response  
+- **API key handling** → Securely using API key for requests  
+
+---
+
+## 📜 Code Explanation
+1. User inputs a **city name**  
+2. Script sends a request to **OpenWeatherMap API** with:
+   - City name
+   - API key
+   - Units (`metric` for °C)  
+3. API returns weather details in **JSON format**  
+4. Script extracts:
+   - Temperature (`main.temp`)  
+   - Humidity (`main.humidity`)  
+   - Weather condition (`weather[0].description`)  
+5. Displays the result in a clean format  
+
+---
+
+## ▶️ How to Run
+
+### 1️⃣ Install Required Package
+```bash
+pip install requests
 
